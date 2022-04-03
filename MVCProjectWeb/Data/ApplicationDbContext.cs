@@ -10,5 +10,6 @@ namespace MVCProjectWeb.Controllers.Data
         }
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<UserData> UserData { get; set; }
     }
 }
