@@ -27,14 +27,25 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white">About</a>
+                    <li/>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="AuthAndAun" asp-action="Login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="AuthAndAun" asp-action="Registration">Registration</a>
+                    </li>
                 </ul>
             </div>
-            @*Регистрация*@
+
+           
+
+            @*Аутентификация и индентификация*@
             <div class="col-md-3 text-end">
                 <button type="button" class="btn btn-outline-light me-2">Login</button>
+
                 <button type="button" class="btn btn-outline-light">Sign-up</button>
             </div>
-            @* Поиск
+             @*Поиск
                 <div class="header__search">
                 <form class="d-flex">
                     <input class="form-control me-sm-2" type="text" placeholder="Search">
